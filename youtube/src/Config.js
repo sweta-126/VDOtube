@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const axiosInst = axios.create({
-   baseURL : "http://localhost:8800/api/"
+   baseURL : "https://vdotube-production.up.railway.app/api/"
 })
